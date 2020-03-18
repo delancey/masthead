@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.8;
+   
+}
+
+body{
+    background-color: navy;
+}
+nav {
+    height: 80px;
+    color: white;
+    background-color: gray;
+    vertical-align:middle;
+}
+
+.logo{
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 80px;
+    float: left;
+
+}
+
+.logo p{
+    font-weight: 300;
+    font-size: 20px;
+    text-align:center;
+}
+
+.search-btn{
+    height: 15px;
+}
+
+ul{
+    display: inline-block;
+    padding-left: 80px;
+}
+
+li{
+    display: inline;
+    padding: 0 20px;
+}
+
+input{
+    border: none;
+    height: 30px;
+    width: 250px;
+    box-sizing: border-box;
+}
+button{
+    background-color: red;
+    border: none;
+    box-sizing: border-box;;
+   height: 30px;
+   width: 30px;
+   margin-top: 15px;
+   margin-left: -5px;
+}
+
+.sign-in{
+    float: right;
+}
+
+.sign-in p{
+    text-align: right;
+    padding-right: 7px;
+    letter-spacing: 1px;
+}
+
+
+img{
+    vertical-align:middle;
+}
+
+svg{
+   
+}
+object{
+    color: white;
+    display: inline-block;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+   
+}
+
